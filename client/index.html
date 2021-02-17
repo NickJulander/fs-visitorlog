@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>
+    Name Database Web App
+  </title>
+</head>
+<body>
+  <main>
+    <!-- Title front end -->
+    <h1>Visitor Log</h1>
+    <h4>Enter your name to leave your mark on my website!</h4>
+
+    <!-- add name front end -->
+    <label>Name: </label>
+    <input type="text" id="name-input">
+    <button id="addbtn">Add Name</button>
+
+    <!-- search name front end -->
+    <br><br><br>
+    <div>
+      <input type="text" placeholder="Search by name" id="search-input">
+      <button id="searchbtn">Search</button>
+    </div>
+
+    <!-- name table front end -->
+    <table id="table">
+      <thead>
+        <!-- <th>ID</th> -->
+        <th>Name</th>
+        <th>Date Added</th>
+        <th>Delete</th>
+        <th>Edit</th>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <section hidden=true id="update-section">
+      <label>Name:</label>
+      <input type="text" id="update-name-input">
+      <button id="update-row-btn">Update</button>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
