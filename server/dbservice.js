@@ -7,7 +7,7 @@ var instance = null;
 const connection = mysql.createConnection({
   host: "webapp-db.cidvrcdxzgx0.us-west-1.rds.amazonaws.com",
   user: "admin",
-  password: "Julander01!",
+  password: "password",
   database: "fsadb",
   port: 3306,
 });
